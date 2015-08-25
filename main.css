@@ -1,0 +1,48 @@
+#header {
+    padding: 15px 0;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    z-index: 100;
+    *zoom: 1
+}
+
+#logo {
+    float: left
+}
+#logo a {
+    display: block;
+    *zoom: 1
+}
+
+#logo img {
+    float: left;
+    max-width: 150px;
+    width: 100%
+}
+
+#main-nav {
+    float: right
+}
+#main-nav ul {
+    *zoom: 1
+}
+
+#main-nav li {
+    float: left
+}
+#main-nav a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 12px 30px 12px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px
+}
+
+.right {
+    display: inline;
+    float: right
+}
