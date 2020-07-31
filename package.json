@@ -4,7 +4,7 @@
   "description": "This was my first template static site. I originally used this site to learn about CSS and HTML. The Javascript on this page was not altered very much from the original template. I developed it completely with Cloud9 IDE and hosted it on bitballoon. Since then, Bitbaloon was aquired by Netlify and Cloud9 was acquired by Amazon.",
   "main": "index.js",
   "scripts": {
-    "start" : "npx sandbox"
+    "start": "npx sandbox"
   },
   "repository": {
     "type": "git",
