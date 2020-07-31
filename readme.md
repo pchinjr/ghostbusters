@@ -8,4 +8,4 @@ I figured it would be a good exercise to take a look at what I did in 2015 and u
 
 2. The original site had a contact form, I need to update this so it will actually work. 
 
-3. Make sure that images are saved and not hot-linked. 
+3. Make sure that images are saved and not hot-linked.
