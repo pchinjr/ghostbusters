@@ -1,0 +1,4 @@
+@app
+ghostbusters
+
+@static
