@@ -1,18 +1,9 @@
+# Migrate from 2015 to 2020
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This was my first template static site. I originally used this site to learn about CSS and HTML. The Javascript on this page was not altered very much from the original template. I developed it completely with Cloud9 IDE and hosted it on bitballoon. Since then, Bitbaloon was aquired by Netlify and Cloud9 was acquired by Amazon. 
 
+I figured it would be a good exercise to take a look at what I did in 2015 and update it. 
 
-Hi there! Welcome to Cloud9 IDE!
+1. First thing I noticed is that file management could be much better. I'm pretty sure I just drag and dropped the folder called "multi-free-responsive-onepage-html-template" into a browser and it became a static hosted site. So restructuring the files and getting it deployed on Begin is the first step. 
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+2. The original site had a contact form, I need to update this so it will actually work. 
