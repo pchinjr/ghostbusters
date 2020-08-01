@@ -2,3 +2,6 @@
 ghostbusters
 
 @static
+
+@http
+get /
