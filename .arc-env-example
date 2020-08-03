@@ -1,0 +1,4 @@
+@testing
+COURIER_AUTH_TOKEN        xxxxxxxxxxxxxxx
+COURIER_NOTIFICATION_ID   xxxxxxxxxxxxxx
+SLACK_TOKEN               xoxb-xxxxxxxxxxxxxxxxx

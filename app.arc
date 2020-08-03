@@ -5,3 +5,4 @@ ghostbusters
 
 @http
 get /
+post /contact-form

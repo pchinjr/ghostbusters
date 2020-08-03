@@ -4,12 +4,14 @@ This was my first template static site. I originally used this site to learn abo
 
 I figured it would be a good exercise to take a look at what I did in 2015 and update it. 
 
-[] restructure files and prune dead files
+[x] restructure files and prune dead files
 
-[] Fix contact form
+[x] Fix contact form
 
-[] Optimize images
+[x] Optimize images
 
 [x] Update commercial youtube link
 
-[] Fix Google Map error 
+[0] Fix Google Map error, ignoring for now
+
+[] add tests
