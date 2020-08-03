@@ -31,8 +31,10 @@ let sendContactForm = async function (req) {
     }
   }
   
-  let response = await tiny.post( {url, data, headers} )
+  let response =  await tiny.post( {url, data, headers} )
+
   console.log(response)
+  
   return {
     location: '/'
   }
