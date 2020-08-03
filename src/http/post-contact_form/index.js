@@ -3,8 +3,8 @@ let arc = require('@architect/functions')
 
 let sendContactForm = async function (req) {
   let body = arc.http.helpers.bodyParser(req)
-  let { name } = body
-  console.log(name)
+  let { name, email, subject, message } = body
+  console.log(name, email, subject, message)
 
   let url = 'https://api.trycourier.app/send'
   
