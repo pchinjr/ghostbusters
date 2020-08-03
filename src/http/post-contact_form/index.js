@@ -1,9 +1,11 @@
 let tiny = require('tiny-json-http')
 let arc = require('@architect/functions')
 
-async function sendContactForm(req) {
-  let { name, email, subject, message } = req.body
-  console.log(name, email, subject, message)
+let sendContactForm = async function (req) {
+  let body = arc.http.helpers.bodyParser(req)
+  let { name } = body
+  console.log(name)
+
   let url = 'https://api.trycourier.app/send'
   
   let headers = {

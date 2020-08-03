@@ -146,7 +146,7 @@ jQuery(function ($) {
     // Contact form
     var form = $('#main-contact-form');
     form.submit(function (event) {
-      event.preventDefault();
+      // event.preventDefault();
       var form_status = $('<div class="form_status"></div>');
       $.ajax({
         url: $(this).attr('action'),
