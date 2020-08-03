@@ -12,6 +12,6 @@ I figured it would be a good exercise to take a look at what I did in 2015 and u
 
 [x] Update commercial youtube link
 
-[0] Fix Google Map error, ignoring for now
+[] Fix Google Map error, ignoring for now
 
 [] add tests
