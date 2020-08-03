@@ -6,12 +6,14 @@ I figured it would be a good exercise to take a look at what I did in 2015 and u
 
 [x] restructure files and prune dead files
 
-[x] Fix contact form
+[] Fix contact form
 
 [x] Optimize images
 
 [x] Update commercial youtube link
 
 [] Fix Google Map error, ignoring for now
+
+[] Fix HTTPS issues
 
 [] add tests
