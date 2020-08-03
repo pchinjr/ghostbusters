@@ -4,7 +4,6 @@ let arc = require('@architect/functions')
 
 let sendCourier = async function(req) {
   let body = req.body
-  console.log(body)
 
   let url = 'https://api.trycourier.app/send'
   
@@ -23,11 +22,10 @@ let sendCourier = async function(req) {
       }
     },
     data: {
-      name: 'Paul Chin Jr.',
-      apt_date: 'June 26',
-      apt_time: '8:44 PM',
-      support_phone: '555-555-5555',
-      support_url: 'https://docs.trycourier.com'
+      name: `${body.name}`,
+      email: `${body.email}`,
+      subject: `${body.subject}`,
+      message: `${body.message}`
     }
   }
   
